@@ -1,11 +1,14 @@
 # Certificate Update Lab Package
 ## Overview
 ### Description
-	This lab is meant to test and refine your CLI skillset and confidence. This lab is intended to be completed entirely via your machine's CLI. Use commands you have learned in class or from the Learn Linux in a month of lunches textbook. Follow the base setup and teardown instructions based on you machine specifications below. Your goal is to find every existing file named client_key.txt in the directories created after the setup script runs. The contents of each of these files must be replaced with the contents of the new_client_key.txt
+
+This lab is meant to test and refine your CLI skillset and confidence. This lab is intended to be completed entirely via your machine's CLI. Use commands you have learned in class or from the Learn Linux in a month of lunches textbook. Follow the base setup and teardown instructions based on you machine specifications below. Your goal is to find every existing file named client_key.txt in the directories created after the setup script runs. The contents of each of these files must be replaced with the contents of the new_client_key.txt
 
 ### Deliverables
-	- Provide a screenshot of a successful run of the check_cert script
-	- Provide a written explanation, screenshot, or code snippet of the exact commands you used to update the client_key.txt files
+
+- Provide a screenshot of a successful run of the check_cert script
+- Provide a written explanation, screenshot, or code snippet of the exact commands you used to update the client_key.txt files
+
 ## Contents
 - LAB_GUIDE.txt
 - new_client_key.txt
