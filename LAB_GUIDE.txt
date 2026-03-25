@@ -1,0 +1,82 @@
+Simple Linux Lab: Updating Mock Client Certificates
+
+Objective
+Find every file named client_key.txt in the simulated server environment and update it so that its contents match the new mock client key.
+
+What you are given
+1. A starter script that creates a fake server environment.
+2. A teardown script that removes the environment.
+3. A checker script that verifies whether the certificate files were updated.
+4. A file named new_client_key.txt that contains the replacement key.
+
+Success condition
+The checker script looks for this unique sequence inside each updated client_key.txt file:
+
+A1B2C3D4E5
+
+That sequence exists in the new key but does not exist in the old key.
+
+High-level workflow
+1. Run the starter script for your platform.
+2. Enter the generated lab directory.
+3. Use Linux commands to find every client_key.txt file.
+4. Replace the old key in each one with the contents of new_client_key.txt.
+5. Run the checker script.
+6. When finished, run the teardown script.
+
+Suggested commands students can practice
+- pwd
+- ls
+- cd
+- find
+- cat
+- cp
+- grep
+- xargs
+- echo
+
+Example lab tasks
+Task 1:
+Run the starter script and verify that the environment was created.
+
+Task 2:
+List the top-level department/service directories.
+
+Task 3:
+Use find to locate every client_key.txt file.
+
+Task 4:
+Open one old certificate file with cat and compare it with new_client_key.txt.
+
+Task 5:
+Update one certificate manually with cp.
+
+Task 6:
+Update the rest using find with -exec or xargs.
+
+Task 7:
+Run the checker script and confirm all certificate files contain the new value.
+
+Task 8:
+Explore the extra nested folders and files that simulate a live server.
+
+Task 9:
+Re-run the checker after intentionally breaking one file, then fix it.
+
+Task 10:
+Run the teardown script to remove the environment.
+
+Expected certificate count
+10 total client_key.txt files
+
+Top-level directories created
+- finance-payments / payment-api
+- hr-portal / employee-web
+- sales-crm / crm-sync
+- engineering-build / ci-runner
+- marketing-site / cms-publisher
+- operations-monitoring / ops-agent
+- security-auth / sso-gateway
+- support-ticketing / ticket-worker
+- analytics-reporting / etl-engine
+- legal-docs / document-store

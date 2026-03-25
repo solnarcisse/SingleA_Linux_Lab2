@@ -1,0 +1,7 @@
+-----BEGIN MOCK CLIENT KEY-----
+env=prod
+owner=updated-service
+serial=NEW-9910-Z9
+key_material=ZXCV5678BNMQ1234QWER9012TYUI3456
+fingerprint=NEWA1B2C3D4E5
+-----END MOCK CLIENT KEY-----
